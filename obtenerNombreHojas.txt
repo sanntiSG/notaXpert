@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Cargar el archivo de Excel
+xls = pd.ExcelFile('ruta_a_tu_archivo/rutina.xlsx')
+
+# Mostrar los nombres de las hojas
+print(xls.sheet_names)
